@@ -1,19 +1,4 @@
 # techy- guy
 
  
-import pyttsx3
-import PyPDF2
-
-book = open('Demo.pdf' , 'rb')
-
-pdfreader = PyPDF2.PdfFileReader(book)
-
-engine = pyttsx3.init()
-
-page = pdfreader.getPage(0)
-
-text = page.extractText()
-
-engine.say(text)
-
-engine.runAndWait()
+Hello guys this is a python project which actually reads pdf books.So this how you can make your own audio book,you can make better then it............................
