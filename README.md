@@ -17,11 +17,7 @@ Install my-project with npm
   python app.py
 ```
     
-## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
 
   
 ## Feedback
